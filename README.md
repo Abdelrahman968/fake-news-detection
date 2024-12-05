@@ -41,7 +41,7 @@ Fake News Detection is a Natural Language Processing (NLP) project aimed at iden
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/fake-news-detection.git](https://github.com/Abdelrahman968/fake-news-detection.git)
+   git clone https://github.com/Abdelrahman968/fake-news-detection.git
    cd fake-news-detection
    ```
 2. Install the required packages:
@@ -64,15 +64,10 @@ Fake News Detection is a Natural Language Processing (NLP) project aimed at iden
 
 2. Train the model:
    ```bash
-   python train_model.py
+   run the Project.ipynb
    ```
 
-3. Test the model:
-   ```bash
-   python test_model.py
-   ```
-
-4. Classify new articles:
+3. Classify new articles:
    Input the text of the news article to get the classification.
 
 ---
@@ -105,12 +100,18 @@ Place the dataset in the `data/` directory.
 ---
 
 ## Results
+The trained model achieved the following Accuracy results:
+- Naive Bayes: 0.9261
+- Logistic Regression: 0.9866
+- Random Forest: 0.9981
+- SVM: 0.9927
+- Voting Classifier: 0.9909
+
 The trained model achieved the following results:
--Naive Bayes: 0.9261
--Logistic Regression: 0.9866
--Random Forest: 0.9981
--SVM: 0.9927
--Voting Classifier: 0.9909
+- Accuracy: 99.09%
+- Precision: 99.00%
+- Recall: 99.00%
+- F1-score: 99.00%
 ---
 
 ## Future Enhancements
