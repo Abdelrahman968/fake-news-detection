@@ -1,2 +1,2 @@
-# fake-news-detection
-Fake news detection - NLP using NLTK
+# Fake news detection - NLP using NLTK
+
